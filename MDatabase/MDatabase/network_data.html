@@ -1,0 +1,42 @@
+<html>
+<head><title></title></head>
+
+<body>
+<h2>Selection Criteria:</h2>
+<form id="selection_criteria" action="network_data.html" method="post"
+	enctype="multipart/form-data">
+<label for="controller_name">Controller(s) To Display</label>
+<select name="controller_name" size="10"  multiple="multiple" >
+   {% for controller_name in data_pack.controller_names %}
+        <option>{{controller_name}}</option>
+{% endfor %}
+     </select>
+<label for="loss_low">Loss%</label>
+<input name="loss_low" type="text" size="4" value="0"></input>
+<input name="loss_high" type="text" size="4" value="100"></input>
+<input type="submit" name="submit" value="Search">
+</form>
+{% if data_pack %}
+<table style="width:300px">
+<tr>
+{% for header in data_pack.row_header %}
+<th>{{header}}</th>
+{% endfor %} 
+</tr>
+
+</table>
+{% else %}
+    <p>No Data Pack</p>
+{% endif %} 
+<p>{{output_str}}</p>
+</body>
+</html>
+<html>
+<head><title></title></head>
+
+<body>
+
+{{ content }}
+
+</body>
+</html>
