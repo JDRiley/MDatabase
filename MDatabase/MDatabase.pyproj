@@ -16,6 +16,8 @@
     <WebBrowserPort>8000</WebBrowserPort>
     <EnableNativeCodeDebugging>True</EnableNativeCodeDebugging>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -42,6 +44,8 @@
     <Compile Include="manage.py" />
     <Compile Include="MDatabase\models.py" />
     <Compile Include="MDatabase\Network_Data.py" />
+    <Compile Include="MDatabase\templatetags\form_tags.py" />
+    <Compile Include="MDatabase\templatetags\__init__.py" />
     <Compile Include="MDatabase\views.py" />
     <Compile Include="MDatabase\__init__.py" />
     <Compile Include="MDatabase\settings.py" />
@@ -62,10 +66,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MDatabase\" />
+    <Folder Include="MDatabase\templatetags\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MDatabase\hello.html" />
     <Content Include="MDatabase\network_data.html" />
+    <Content Include="MDatabase\range_form_input.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>

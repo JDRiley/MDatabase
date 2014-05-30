@@ -1,28 +1,64 @@
 <html>
-<head><title></title></head>
+<head><title></title>
+<style>
+table,th,td
+{
+border:1px solid black;
+}
+</style>
+</head>
 
 <body>
 <h2>Selection Criteria:</h2>
 <form id="selection_criteria" action="network_data.html" method="post"
-	enctype="multipart/form-data">
-<label for="controller_name">Controller(s) To Display</label>
-<select name="controller_name" size="10"  multiple="multiple" >
+	enctype="multipart/form-data">{% csrf_token %}
+<table>
+<tr><td colspan="8">
+<p>Controller(s) To Display</p>
+<select name="controller_names" size="10"  multiple="multiple" >
    {% for controller_name in data_pack.controller_names %}
         <option>{{controller_name}}</option>
 {% endfor %}
      </select>
-<label for="loss_low">Loss%</label>
-<input name="loss_low" type="text" size="4" value="0"></input>
-<input name="loss_high" type="text" size="4" value="100"></input>
+</td>
+{% load form_tags %}
+<td>
+{% range_form_input 'loss' data_pack.loss_low data_pack.loss_high %}
+<!--<label for="loss_low">Loss%</label>
+<input name="loss_low" type="text" size="4" value="{{data_pack.loss_low}}"></input>
+<input name="loss_high" type="text" size="4" value="{{data_pack.loss_high}}"></input>-->
+</br>
+{% range_form_input 'retry' data_pack.retry_low data_pack.retry_high %}
+
+</td></tr><tr>
+
+
+</tr>
+
+</table>
 <input type="submit" name="submit" value="Search">
 </form>
 {% if data_pack %}
-<table style="width:300px">
+<table style="width:1400px">
 <tr>
 {% for header in data_pack.row_header %}
-<th>{{header}}</th>
+{% if header == 'Date' %}
+    <th style="width:200px">
+{% elif header == 'Controller_Name' %}
+    <th style="width:150px">
+{% else %}
+    <th style="width:50px">
+{% endif %}
+{{header}}</th>
 {% endfor %} 
 </tr>
+{% for row in data_pack.data_rows %}
+<tr>
+{% for value in row %}
+<td>{{value}}</td>
+{% endfor %}
+</tr>
+{% endfor %}
 
 </table>
 {% else %}
