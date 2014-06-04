@@ -29,7 +29,7 @@ border:1px solid black;
 						{% for tf_building in data_pack.buildings %}
 							<option>{{tf_building}}</option>
 						{% endfor %}
-					</select>
+					</select><br/>
 					<input type="submit" name="submit" value="{{data_pack.filter_by_building_str}}">
 				</td>
 				<td colspan="8">
@@ -38,7 +38,7 @@ border:1px solid black;
 						{% for tf_access_point in data_pack.access_points %}
 							<option>{{tf_access_point}}</option>
 						{% endfor %}
-					</select>
+					</select><br/>
 					<input type="submit" name="submit" value="{{data_pack.filter_by_access_points_str}}">
 				{% load form_tags %}
 				<td>

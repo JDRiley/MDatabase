@@ -6,7 +6,7 @@ from network_data_helpers import *
 
 ALL_CONTROLLERS_STRING = 'All Controllers'
 CONTROLLER_NAME_COLLUMN = 'Controller_Name'
-BUILDING_NAME_COLLUMN = 'Building'
+BUILDING_NAME_COLLUMN = 'Building_Name'
 AP_NAME_COLLUMN = 'AP_Name'
 ALL_ACCESS_POINTS_STRING = 'All Aps'
 ALL_BUILDINGS_STRING = 'All Buildings'
@@ -55,12 +55,12 @@ class Data_Pack:
 
 	def __init__(self, i_con):
 		self.row_header = ['Controller_Name',  'Date' , 'IP_Address', 'IF-Index', ' AP_ID', 
-				'AP_Name', 'Assoc', 'Thru', 'Ch-Util', 'Noise', 'Retry%', 
+				'Building', 'AP_Name', 'Assoc', 'Thru', 'Ch-Util', 'Noise', 'Retry%', 
 				'Mgmt%', 'Beacon%', 'Probe%',	'Neighbor-hood', 
 				'Loss%', 'Channel']
 
 		self.filter_by_controller_str = FILTER_BY_CONTROLLER_STRING
-		self.filter_by_access_point_str = FILTER_BY_ACCESS_POINT_STRING
+		self.filter_by_access_points_str = FILTER_BY_ACCESS_POINT_STRING
 		self.filter_by_building_str = FILTER_BY_BUILDING_STRING
 
 		self.rows = 17
