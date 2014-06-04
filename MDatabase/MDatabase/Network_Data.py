@@ -91,7 +91,7 @@ class Data_Pack:
 
 	def set_buildings(self, i_cursor, i_in_condition):
 		i_cursor.execute('SELECT DISTINCT Building_Name FROM Network_Connections WHERE '
-				  + in_condition)
+				  + i_in_condition)
 
 		for building in i_cursor.fetchall():
 			self.buildings.append(building[0])
@@ -101,7 +101,7 @@ class Data_Pack:
 
 	def set_controllers(self, i_cursor, i_in_condition):
 		i_cursor.execute('SELECT DISTINCT Controller_Name FROM Network_Connections WHERE '
-				  + in_condition)
+				  + i_in_condition)
 
 		for controller_name in i_cursor.fetchall():
 			self.controller_names.append(controller_name[0])
@@ -110,7 +110,7 @@ class Data_Pack:
 
 	def set_access_points(self, i_cursor, i_in_condition):
 		i_cursor.execute('SELECT DISTINCT AP_Name FROM Network_Connections WHERE '
-				  + in_condition)
+				  + i_in_condition)
 
 		for access_point in i_cursor.fetchall():
 			self.access_points.append(access_point[0])
