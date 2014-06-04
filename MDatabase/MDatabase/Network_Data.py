@@ -224,7 +224,7 @@ def create_data_pack(i_request):
 		default_post = QueryDict('')
 		default_post = default_post.copy()
 		default_post.update({'controller_names' : ALL_CONTROLLERS_STRING})
-		default_post.update({'access_points' : ALL_AP_STRING})
+		default_post.update({'access_points' : ALL_ACCESS_POINTS_STRING})
 		default_post.update({'buildings' : ALL_BUILDINGS_STRING})
 		default_post.update({'entry_begin' : '0'})
 		default_post.update({'num_entries' : '10000'})

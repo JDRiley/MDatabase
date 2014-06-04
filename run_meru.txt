@@ -1,0 +1,40 @@
+#!/bin/bash
+export PATH="/usr/local/bin:/usr/bin:/bin"
+date1=`date '+%m-%d-%Y'`
+date2=`date '+%H:%M'`
+filetime="$date1 $date2:00"
+logname=/home/waltr/Dot11/log/insert_log_$date1
+#
+echo 4.1
+for x in $(cat /home/waltr/bin/Meru-IPs-4.0)
+do
+echo $x
+filename=/home/waltr/Dot11/$date1/4.0-Dot11-$date2-$x
+/home/waltr/bin/Dot11 $x > $filename
+command_line="Network_Data --dot11radio 0 -u --table Dot11Radio --datetime \"$filetime\" -f $filename >>$logname 2>&1"
+echo $command_line >>$logname
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "$filetime" -f $filename >>$logname 2>&1
+done
+#
+echo 5.1
+for y in $(cat /home/waltr/bin/Meru-IPs-5.1)
+do
+echo $y
+filename=/home/waltr/Dot11/$date1/5.1-Dot11-$date2-$y
+/home/waltr/bin/Dot11 $y > $filename
+command_line="Network_Data --dot11radio 1 -u --table Dot11Radio --datetime \"$filetime\" -f $filename >>$logname 2>&1"
+echo $command_line >>$logname
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "$filetime" -f $filename >>$logname 2>&1
+done
+#
+echo 5.3
+for z in $(cat /home/waltr/bin/Meru-IPs-5.3)
+do
+echo $z
+filename=/home/waltr/Dot11/$date1/5.3-Dot11-$date2-$z
+/home/waltr/bin/Dot11 $z > $filename
+command_line="Network_Data --dot11radio 2 -u --table Dot11Radio --datetime \"$filetime\" -f $filename >>$logname 2>&1"
+echo $command_line >>$logname
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "$filetime" -f $filename >>$logname 2>&1
+done
+
