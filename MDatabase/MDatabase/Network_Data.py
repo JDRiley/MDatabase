@@ -194,7 +194,7 @@ class Data_Pack:
 			query +=' AND '
 			query += f_condition
 
-		query += 'ORDER BY  Loss, Date DESC'
+		query += 'ORDER BY  Loss_Percentage, Date DESC'
 		query += ' LIMIT 0, 100 '
 		
 
