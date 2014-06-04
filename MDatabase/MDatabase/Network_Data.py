@@ -6,10 +6,13 @@ from network_data_helpers import *
 
 ALL_CONTROLLERS_STRING = 'All Controllers'
 CONTROLLER_NAME_COLLUMN = 'Controller_Name'
+BUILDING_NAME_COLLUMN = 'Building'
 AP_NAME_COLLUMN = 'AP_Name'
-ALL_AP_STRING = 'All Aps'
+ALL_ACCESS_POINTS_STRING = 'All Aps'
 ALL_BUILDINGS_STRING = 'All Buildings'
 FILTER_BY_CONTROLLER_STRING = 'Filter By Controller'
+FILTER_BY_BUILDING_STRING = 'Filter By Building'
+FILTER_BY_ACCESS_POINT_STRING = 'Filter By APs'
 def make_in_condition(i_names, i_column_name, i_all_name):
 	if(0 == len(i_names)):
 		return '1'
@@ -46,6 +49,10 @@ class Data_Pack:
 		return make_in_condition(self.selected_aps
 						   , AP_NAME_COLLUMN, ALL_AP_STRING);
 
+	def make_building_name_condition(self):
+		return make_in_condition(self.selected_buildings
+						   , BUILDING_NAME_COLLUMN, ALL_BUILDINGS_STRING)
+
 	def __init__(self, i_con):
 		self.row_header = ['Controller_Name',  'Date' , 'IP_Address', 'IF-Index', ' AP_ID', 
 				'AP_Name', 'Assoc', 'Thru', 'Ch-Util', 'Noise', 'Retry%', 
@@ -53,7 +60,8 @@ class Data_Pack:
 				'Loss%', 'Channel']
 
 		self.filter_by_controller_str = FILTER_BY_CONTROLLER_STRING
-		
+		self.filter_by_access_point_str = FILTER_BY_ACCESS_POINT_STRING
+		self.filter_by_building_str = FILTER_BY_BUILDING_STRING
 
 		self.rows = 17
 		self.begin_row = 0
@@ -70,13 +78,45 @@ class Data_Pack:
 		self.thru_low = '0'
 		self.thru_high = '100'
 		
-
+		self.controller_names = [ALL_CONTROLLERS_STRING]
+		self.buildings = [ALL_BUILDINGS_STRING]
+		self.access_points = [ALL_ACCESS_POINTS_STRING]
 		
 
 
 		
 
 		return
+
+
+	def set_buildings(self, i_cursor, i_in_condition):
+		i_cursor.execute('SELECT DISTINCT Building_Name FROM Network_Connections WHERE '
+				  + in_condition)
+
+		for building in i_cursor.fetchall():
+			self.buildings.append(building[0])
+		
+		return
+
+
+	def set_controllers(self, i_cursor, i_in_condition):
+		i_cursor.execute('SELECT DISTINCT Controller_Name FROM Network_Connections WHERE '
+				  + in_condition)
+
+		for controller_name in i_cursor.fetchall():
+			self.controller_names.append(controller_name[0])
+		
+		return
+
+	def set_access_points(self, i_cursor, i_in_condition):
+		i_cursor.execute('SELECT DISTINCT AP_Name FROM Network_Connections WHERE '
+				  + in_condition)
+
+		for access_point in i_cursor.fetchall():
+			self.access_points.append(access_point[0])
+		
+		return
+
 
 	def initialize_data(self,i_post_args):
 		cursor = self.con.cursor()
@@ -86,51 +126,34 @@ class Data_Pack:
 		self.selected_aps = i_post_args.getlist('access_points')
 
 		submit_flag = i_post_args.has_key('submit')
-		if(submit_flag):
-			print("Submit Flag", submit_flag, FILTER_BY_CONTROLLER_STRING, i_post_args['submit'])
-		else:
-			print("No Submit Flag")
-		if( submit_flag and FILTER_BY_CONTROLLER_STRING == i_post_args['submit']):
-			self.controller_names = ['All Controllers']
-			cursor.execute('SELECT DISTINCT Controller_Name FROM Network_Connections')
-			for controller_name in cursor.fetchall():
-				self.controller_names.append(controller_name[0])
+		if(not submit_flag):
+			self.set_controllers(cursor, '1')
+			self.set_buildings(cursor, '1')
+			self.set_access_points(cursor, '1')
+
+		elif(FILTER_BY_CONTROLLER_STRING == i_post_args['submit']):
+			self.set_controllers(cursor, '1')
 
 			in_condition = make_in_condition(self.selected_controllers, CONTROLLER_NAME_COLLUMN
 						  , ALL_CONTROLLERS_STRING)
 
-			cursor.execute('SELECT DISTINCT Building_Name FROM Network_Connections WHERE '
-				  + in_condition)
+			self.set_buildings(cursor, in_condition)
+			self.set_access_points(cursor, in_condition)
+		elif(FILTER_BY_BUILDING_STRING == i_post_args['submit']):
+			self.set_buildings(cursor, '1')
 
-			
-			self.buildings = []
-			for building in cursor.fetchall():
-				self.buildings.append(building[0])
+			in_condition = make_in_condition(self.selected_buildings, BUILDING_NAME_COLLUMN
+						  , ALL_BUILDINGS_STRING)
+			self.set_controllers(cursor, in_condition)
+			self.set_access_points(cursor, in_condition)
 
-			cursor.execute('SELECT DISTINCT AP_Name FROM Network_Connections WHERE '
-				  + in_condition)
+		elif(FILTER_BY_ACCESS_POINT_STRING == i_post_args['submit']):
+			self.set_access_points(cursor, '1')
 
-			self.access_points = [ALL_AP_STRING]
-			for access_point in cursor.fetchall():
-				self.access_points.append(access_point[0])
-
-		else:
-			self.controller_names = ['All Controllers']
-			cursor.execute('SELECT DISTINCT Controller_Name FROM Network_Connections')
-			for controller_name in cursor.fetchall():
-				self.controller_names.append(controller_name[0])
-		
-			cursor.execute('SELECT DISTINCT Building FROM Buildings')
-
-			self.buildings = [ALL_BUILDINGS_STRING]
-			for building in cursor.fetchall():
-				self.buildings.append(building[0])
-
-			cursor.execute('SELECT DISTINCT AP_Name FROM Access_Points')
-
-			self.access_points = [ALL_AP_STRING]
-			for access_point in cursor.fetchall():
-				self.access_points.append(access_point[0])
+			in_condition = make_in_condition(self.selected_aps, AP_NAME_COLLUMN
+						  , ALL_ACCESS_POINTS_STRING)
+			self.set_controllers(cursor, in_condition)
+			self.set_buildings(cursor, in_condition)
 
 
 
@@ -150,6 +173,7 @@ class Data_Pack:
 		conditions = []
 
 		conditions.append(self.make_controller_condition())
+		conditions.append(self.make_building_name_condition())
 		conditions.append(self.make_ap_name_condition())
 
 		loss_condition = '((Loss_Percentage >= ' + self.loss_low\
@@ -171,7 +195,8 @@ class Data_Pack:
 			query += f_condition
 
 
-		query += ' LIMIT 0, 100'
+		query += ' LIMIT 0, 100 ORDER BY '
+		query += ' Date, Loss DESC'
 
 		cursor.execute(query)
 

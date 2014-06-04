@@ -30,6 +30,7 @@ border:1px solid black;
 							<option>{{tf_building}}</option>
 						{% endfor %}
 					</select>
+					<input type="submit" name="submit" value="{{data_pack.filter_by_building_str}}">
 				</td>
 				<td colspan="8">
 					<p>Access Points</p>
@@ -38,6 +39,7 @@ border:1px solid black;
 							<option>{{tf_access_point}}</option>
 						{% endfor %}
 					</select>
+					<input type="submit" name="submit" value="{{data_pack.filter_by_access_points_str}}">
 				{% load form_tags %}
 				<td>
 					{% range_form_input 'loss' data_pack.loss_low data_pack.loss_high %} </br>
