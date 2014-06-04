@@ -44,6 +44,7 @@
     <Compile Include="manage.py" />
     <Compile Include="MDatabase\models.py" />
     <Compile Include="MDatabase\Network_Data.py" />
+    <Compile Include="MDatabase\network_data_helpers.py" />
     <Compile Include="MDatabase\templatetags\form_tags.py" />
     <Compile Include="MDatabase\templatetags\__init__.py" />
     <Compile Include="MDatabase\views.py" />
