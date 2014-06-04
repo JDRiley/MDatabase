@@ -194,9 +194,9 @@ class Data_Pack:
 			query +=' AND '
 			query += f_condition
 
-
-		query += ' LIMIT 0, 100 ORDER BY '
-		query += ' Date, Loss DESC'
+		query += 'ORDER BY  Loss, Date DESC'
+		query += ' LIMIT 0, 100 '
+		
 
 		cursor.execute(query)
 
