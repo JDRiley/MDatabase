@@ -47,7 +47,7 @@ class Data_Pack:
 
 	def make_ap_name_condition(self):
 		return make_in_condition(self.selected_aps
-						   , AP_NAME_COLLUMN, ALL_AP_STRING);
+						   , AP_NAME_COLLUMN, ALL_ACCESS_POINTS_STRING);
 
 	def make_building_name_condition(self):
 		return make_in_condition(self.selected_buildings
