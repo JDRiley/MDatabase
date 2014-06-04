@@ -86,8 +86,10 @@ class Data_Pack:
 		self.selected_aps = i_post_args.getlist('access_points')
 
 		submit_flag = i_post_args.has_key('submit')
-		print("Submit Flag", submit_flag, FILTER_BY_CONTROLLER_STRING, i_post_args['submit'])
-
+		if(submit_flag):
+			print("Submit Flag", submit_flag, FILTER_BY_CONTROLLER_STRING, i_post_args['submit'])
+		else:
+			print("No Submit Flag")
 		if( submit_flag and FILTER_BY_CONTROLLER_STRING == i_post_args['submit']):
 			self.controller_names = ['All Controllers']
 			cursor.execute('SELECT DISTINCT Controller_Name FROM Network_Connections')
