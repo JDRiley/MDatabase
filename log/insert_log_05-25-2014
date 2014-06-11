@@ -1,0 +1,512 @@
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-00:35-141.211.95.12
+
+273 entered!
+273 Rows inserted!
+Time Elapsed: 15479.3
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-00:35-141.211.95.14
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 338.716
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-00:35-141.211.95.15
+
+196 entered!
+196 Rows inserted!
+Time Elapsed: 19287.3
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-00:35-141.211.95.19
+
+40 entered!
+40 Rows inserted!
+Time Elapsed: 17130.6
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-00:35-141.211.95.26
+
+184 entered!
+184 Rows inserted!
+Time Elapsed: 9670
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-06:35-141.211.95.12
+
+273 entered!
+273 Rows inserted!
+Time Elapsed: 10486.1
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-06:35-141.211.95.14
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 504.627
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-06:35-141.211.95.15
+
+196 entered!
+196 Rows inserted!
+Time Elapsed: 30485.1
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-06:35-141.211.95.19
+
+40 entered!
+40 Rows inserted!
+Time Elapsed: 13008
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-06:35-141.211.95.26
+
+184 entered!
+184 Rows inserted!
+Time Elapsed: 20476.2
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-12:35-141.211.95.12
+
+273 entered!
+273 Rows inserted!
+Time Elapsed: 21752.3
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-12:35-141.211.95.14
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 473.997
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-12:35-141.211.95.15
+
+196 entered!
+196 Rows inserted!
+Time Elapsed: 15069.4
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-12:35-141.211.95.19
+
+40 entered!
+40 Rows inserted!
+Time Elapsed: 8816.7
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-12:35-141.211.95.26
+
+184 entered!
+184 Rows inserted!
+Time Elapsed: 11352.8
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-18:35-141.211.95.12
+
+273 entered!
+273 Rows inserted!
+Time Elapsed: 11314.5
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-18:35-141.211.95.14
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 517.013
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-18:35-141.211.95.15
+
+196 entered!
+196 Rows inserted!
+Time Elapsed: 11356.9
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-18:35-141.211.95.19
+
+40 entered!
+40 Rows inserted!
+Time Elapsed: 8808.79
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/4.0-Dot11-18:35-141.211.95.26
+
+184 entered!
+184 Rows inserted!
+Time Elapsed: 11337.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.16
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 534.637
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.17
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 495.945
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.18
+
+202 entered!
+202 Rows inserted!
+Time Elapsed: 11305.3
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.20
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 509.729
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.21
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 498.106
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.22
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 462.822
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.23
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 459.565
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.24
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 468.138
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.25
+
+529 entered!
+529 Rows inserted!
+Time Elapsed: 17379.9
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.29
+
+689 entered!
+689 Rows inserted!
+Time Elapsed: 14627.7
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.30
+
+372 entered!
+372 Rows inserted!
+Time Elapsed: 12427.5
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.5
+
+355 entered!
+355 Rows inserted!
+Time Elapsed: 12296.6
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-00:35-141.211.95.8
+
+402 entered!
+402 Rows inserted!
+Time Elapsed: 12973.1
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.16
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 511.368
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.17
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 540.203
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.18
+
+202 entered!
+202 Rows inserted!
+Time Elapsed: 8955.05
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.20
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 510.822
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.21
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 497.644
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.22
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 444.226
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.23
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 437.921
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.24
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 529.764
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.25
+
+529 entered!
+529 Rows inserted!
+Time Elapsed: 14010.4
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.29
+
+689 entered!
+689 Rows inserted!
+Time Elapsed: 18829
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.30
+
+372 entered!
+372 Rows inserted!
+Time Elapsed: 21280.4
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.5
+
+355 entered!
+355 Rows inserted!
+Time Elapsed: 17961.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-06:35-141.211.95.8
+
+402 entered!
+402 Rows inserted!
+Time Elapsed: 11471.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.16
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 514.499
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.17
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 497.553
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.18
+
+202 entered!
+202 Rows inserted!
+Time Elapsed: 9782.62
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.20
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 504.264
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.21
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 490.776
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.22
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 463.449
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.23
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 459.683
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.24
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 450.695
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.25
+
+529 entered!
+529 Rows inserted!
+Time Elapsed: 12384.2
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.29
+
+689 entered!
+689 Rows inserted!
+Time Elapsed: 18998.1
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.30
+
+372 entered!
+372 Rows inserted!
+Time Elapsed: 11282.7
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.5
+
+355 entered!
+355 Rows inserted!
+Time Elapsed: 10582.9
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-12:35-141.211.95.8
+
+402 entered!
+402 Rows inserted!
+Time Elapsed: 12200.6
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.16
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 516.226
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.17
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 489.867
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.18
+
+202 entered!
+202 Rows inserted!
+Time Elapsed: 9673.88
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.20
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 549.314
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.21
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 529.749
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.22
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 495.633
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.23
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 463.083
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.24
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 452.264
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.25
+
+529 entered!
+529 Rows inserted!
+Time Elapsed: 13077
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.29
+
+689 entered!
+689 Rows inserted!
+Time Elapsed: 28811.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.30
+
+372 entered!
+372 Rows inserted!
+Time Elapsed: 16295.3
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.5
+
+355 entered!
+355 Rows inserted!
+Time Elapsed: 13082.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.1-Dot11-18:35-141.211.95.8
+
+402 entered!
+402 Rows inserted!
+Time Elapsed: 12976.8
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.27
+
+496 entered!
+496 Rows inserted!
+Time Elapsed: 12320.1
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.28
+
+551 entered!
+551 Rows inserted!
+Time Elapsed: 12990.6
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.36
+
+229 entered!
+229 Rows inserted!
+Time Elapsed: 10462.2
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.6
+
+480 entered!
+480 Rows inserted!
+Time Elapsed: 12143.7
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.7
+
+309 entered!
+309 Rows inserted!
+Time Elapsed: 17315.7
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 00:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-00:35-141.211.95.9
+
+145 entered!
+145 Rows inserted!
+Time Elapsed: 9628.64
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.27
+
+496 entered!
+496 Rows inserted!
+Time Elapsed: 16327.3
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.28
+
+551 entered!
+551 Rows inserted!
+Time Elapsed: 26294.7
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.36
+
+229 entered!
+229 Rows inserted!
+Time Elapsed: 17935.5
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.6
+
+480 entered!
+480 Rows inserted!
+Time Elapsed: 8987.94
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.7
+
+309 entered!
+309 Rows inserted!
+Time Elapsed: 13285.8
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 06:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-06:35-141.211.95.9
+
+145 entered!
+145 Rows inserted!
+Time Elapsed: 7316.42
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.27
+
+496 entered!
+496 Rows inserted!
+Time Elapsed: 9830.43
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.28
+
+551 entered!
+551 Rows inserted!
+Time Elapsed: 10649.2
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.36
+
+229 entered!
+229 Rows inserted!
+Time Elapsed: 8971.03
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.6
+
+480 entered!
+480 Rows inserted!
+Time Elapsed: 9830.5
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.7
+
+309 entered!
+309 Rows inserted!
+Time Elapsed: 8993
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 12:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-12:35-141.211.95.9
+
+145 entered!
+145 Rows inserted!
+Time Elapsed: 7311.35
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.27
+
+496 entered!
+496 Rows inserted!
+Time Elapsed: 10660.8
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.28
+
+551 entered!
+551 Rows inserted!
+Time Elapsed: 10655.6
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.36
+
+229 entered!
+229 Rows inserted!
+Time Elapsed: 14119.7
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.6
+
+480 entered!
+480 Rows inserted!
+Time Elapsed: 12208.3
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.7
+
+309 entered!
+309 Rows inserted!
+Time Elapsed: 23112.9
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "05-25-2014 18:35:00" -f /home/waltr/Dot11/05-25-2014/5.3-Dot11-18:35-141.211.95.9
+
+145 entered!
+145 Rows inserted!
+Time Elapsed: 15464.5

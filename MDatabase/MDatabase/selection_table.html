@@ -1,0 +1,43 @@
+
+		<table>
+			<tr>
+				<td colspan="8">
+					<p>Controller(s)</p>
+					<select name="controller_names" size="10"  multiple="multiple" >
+						{% for controller_name in t_selection_pack.controller_names %}
+								<option>{{controller_name}}</option>
+						{% endfor %}
+					</select><br/>
+					<input type="submit" name="submit" value="{{t_selection_pack.filter_by_controller_str}}">
+				</td>
+				<td colspan="8">
+					<p>Buildings</p>
+					<select name="buildings" size="10" multiple="multiple">
+						{% for tf_building in t_selection_pack.buildings %}
+							<option>{{tf_building}}</option>
+						{% endfor %}
+					</select><br/>
+					<input type="submit" name="submit" value="{{t_selection_pack.filter_by_building_str}}">
+				</td>
+				<td colspan="8">
+					<p>Access Points</p>
+					<select name="access_points" size="10" multiple="multiple">
+						{% for tf_access_point in t_selection_pack.access_points %}
+							<option>{{tf_access_point}}</option>
+						{% endfor %}
+					</select><br/>
+					<input type="submit" name="submit" value="{{t_selection_pack.filter_by_access_points_str}}">
+				{% load form_tags %}
+				<td>
+					{% range_form_input 'loss' t_selection_pack.loss_low t_selection_pack.loss_high %} </br>
+					{% range_form_input 'retry' t_selection_pack.retry_low t_selection_pack.retry_high %} </br>
+					{% range_form_input 'thru' t_selection_pack.thru_low t_selection_pack.thru_high %} </br>
+					{% range_form_input 'beacon' t_selection_pack.beacon_low t_selection_pack.beacon_high %} </br>
+					{% range_form_input 'probe' t_selection_pack.probe_low t_selection_pack.probe_high %} </br>
+					{% datetime_range_input 'date_range' t_selection_pack.date_range_low t_selection_pack.date_range_high %}</br>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Search"></td>
+			</tr>
+		</table>

@@ -1,9 +1,16 @@
 
-import MySQLdb
+from mdatabase_mysql import get_mdatabase_connection
+
 from django.http import QueryDict
+import datetime
+import time
 
 from network_data_helpers import *
 
+def add_qoutes(i_str):
+	return '"' + i_str + '"'
+
+DEFAULT_BEGINING_TIME = datetime.datetime(2000,1,1).strftime('%Y-%m-%d %H:%M:%S')
 ALL_CONTROLLERS_STRING = 'All Controllers'
 CONTROLLER_NAME_COLLUMN = 'Controller_Name'
 BUILDING_NAME_COLLUMN = 'Building_Name'
@@ -27,7 +34,7 @@ def make_in_condition(i_names, i_column_name, i_all_name):
 
 	return i_column_name + ' IN' + condition + ')'
 
-class Data_Pack:
+class Selection_Pack:
 	#entry_begin
 	#num_entries
 	#loss_low
@@ -53,6 +60,23 @@ class Data_Pack:
 		return make_in_condition(self.selected_buildings
 						   , BUILDING_NAME_COLLUMN, ALL_BUILDINGS_STRING)
 
+	def basic_range(self):
+		self.loss_low = '0'
+		self.loss_high = '100'
+		self.num_entries = '500'
+		self.entry_begin = '0'
+		self.retry_low = '0'
+		self.retry_high = '100'
+		self.thru_low = '0'
+		self.thru_high = '100'
+		self.beacon_low = '0'
+		self.beacon_high = '100'
+		self.probe_low = '0'
+		self.probe_high = '100'
+		self.date_range_low = DEFAULT_BEGINING_TIME
+		self.date_range_high = time.strftime('%Y-%m-%d %H:%M:%S')
+
+
 	def __init__(self, i_con):
 		self.row_header = ['Controller_Name',  'Date' , 'IP_Address', 'IF-Index', ' AP_ID', 
 				'Building', 'AP_Name', 'Assoc', 'Thru', 'Ch-Util', 'Noise', 'Retry%', 
@@ -69,14 +93,7 @@ class Data_Pack:
 
 		self.data_rows = []
 		self.con = i_con
-		self.loss_low = '0'
-		self.loss_high = '100'
-		self.num_entries = '500'
-		self.entry_begin = '0'
-		self.retry_low = '0'
-		self.retry_high = '100'
-		self.thru_low = '0'
-		self.thru_high = '100'
+		
 		
 		self.controller_names = [ALL_CONTROLLERS_STRING]
 		self.buildings = [ALL_BUILDINGS_STRING]
@@ -84,7 +101,7 @@ class Data_Pack:
 		
 
 
-		
+		self.basic_range()
 
 		return
 
@@ -118,7 +135,7 @@ class Data_Pack:
 		return
 
 
-	def initialize_data(self,i_post_args):
+	def initialize_data(self,i_post_args, i_blank = 0):
 		cursor = self.con.cursor()
 		
 		self.selected_controllers = i_post_args.getlist('controller_names')
@@ -169,6 +186,11 @@ class Data_Pack:
 		self.beacon_high = i_post_args.get('beacon_high')
 		self.probe_low = i_post_args.get('probe_low')
 		self.probe_high = i_post_args.get('probe_high')
+		self.date_range_low = i_post_args.get('date_range_low')
+		self.date_range_high = i_post_args.get('date_range_high')
+
+		if(1 == i_blank):
+			self.basic_range()
 
 		conditions = []
 
@@ -185,7 +207,7 @@ class Data_Pack:
 		conditions.append(make_condition('Thruput', self.thru_low, self.thru_high))
 		conditions.append(make_condition('Beacon_Percentage', self.beacon_low, self.beacon_high))
 		conditions.append(make_condition('Probe_Percentage', self.probe_low, self.probe_high))
-
+		conditions.append(make_condition('Date', add_qoutes(self.date_range_low), add_qoutes(self.date_range_high)))
 
 
 		query = 'SELECT * FROM Dot11Radio WHERE 1' 
@@ -207,19 +229,18 @@ class Data_Pack:
 
 
 
-def create_data_pack(i_request):
+def create_selection_pack(i_request, i_blank = 0):
 	a = 4;
 	a = a*a;
 
 
-	con = MySQLdb.connect('141.213.135.146', 'jomike', 'deldeldel', 'MInternet', 3306)
 
-	
+	con = get_mdatabase_connection()
 
-	return_pack = Data_Pack(con)
+	return_pack = Selection_Pack(con)
 
 	if('POST' == i_request.method):
-		return_pack.initialize_data(i_request.POST)
+		return_pack.initialize_data(i_request.POST, i_blank)
 	else:
 		default_post = QueryDict('')
 		default_post = default_post.copy()
@@ -239,7 +260,9 @@ def create_data_pack(i_request):
 		default_post.update({'beacon_high' : '100' })
 		default_post.update({'probe_low' : '0' })
 		default_post.update({'probe_high' : '100' })
-		return_pack.initialize_data(default_post)
+		default_post.update({'date_range_low' : DEFAULT_BEGINING_TIME})
+		default_post.update({'date_range_high' : time.strftime('%Y-%m-%d %H:%M:%S')})
+		return_pack.initialize_data(default_post, i_blank)
 		 
 	return return_pack
 

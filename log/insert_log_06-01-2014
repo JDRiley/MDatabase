@@ -1,0 +1,419 @@
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-00:35-141.211.95.12
+
+273 entered!
+273 Rows inserted!
+Time Elapsed: 11317.1
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-00:35-141.211.95.14
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 554.027
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-00:35-141.211.95.15
+
+194 entered!
+194 Rows inserted!
+Time Elapsed: 11401.7
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-00:35-141.211.95.19
+
+40 entered!
+40 Rows inserted!
+Time Elapsed: 14651.7
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-00:35-141.211.95.26
+
+186 entered!
+186 Rows inserted!
+Time Elapsed: 11332.4
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-06:35-141.211.95.12
+
+Could Not Read IP String
+
+Time Elapsed: 500.969
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-06:35-141.211.95.14
+
+Could Not Read IP String
+
+Time Elapsed: 488.255
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-06:35-141.211.95.15
+
+Could Not Read IP String
+
+Time Elapsed: 506.099
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-06:35-141.211.95.19
+
+Could Not Read IP String
+
+Time Elapsed: 454.074
+Network_Data --dot11radio 0 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/4.0-Dot11-06:35-141.211.95.26
+
+Could Not Read IP String
+
+Time Elapsed: 499.619
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.16
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 438.525
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.17
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 438.635
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.18
+
+202 entered!
+202 Rows inserted!
+Time Elapsed: 9958.94
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.20
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 493.812
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.21
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 545.206
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.22
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 516.293
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.23
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 465.206
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.24
+
+0 entered!
+No entries loaded. Error Parsing Input
+
+Time Elapsed: 496.698
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.25
+
+528 entered!
+528 Rows inserted!
+Time Elapsed: 14736.6
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.29
+
+Failed parsing entry: 2
+Could Not Read ap_id
+
+Time Elapsed: 516.85
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.30
+
+372 entered!
+372 Rows inserted!
+Time Elapsed: 12129.4
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.5
+
+355 entered!
+355 Rows inserted!
+Time Elapsed: 11458.8
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-00:35-141.211.95.8
+
+402 entered!
+402 Rows inserted!
+Time Elapsed: 11395.6
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.16
+
+Could Not Read IP String
+
+Time Elapsed: 365.478
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.17
+
+Could Not Read IP String
+
+Time Elapsed: 441.351
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.18
+
+Could Not Read IP String
+
+Time Elapsed: 460.89
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.20
+
+Could Not Read IP String
+
+Time Elapsed: 468.315
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.21
+
+Could Not Read IP String
+
+Time Elapsed: 496.875
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.22
+
+Could Not Read IP String
+
+Time Elapsed: 433.271
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.23
+
+Could Not Read IP String
+
+Time Elapsed: 431.97
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.24
+
+Could Not Read IP String
+
+Time Elapsed: 428.411
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.25
+
+Could Not Read IP String
+
+Time Elapsed: 427.585
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.29
+
+Could Not Read IP String
+
+Time Elapsed: 431.972
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.30
+
+Could Not Read IP String
+
+Time Elapsed: 422.062
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.5
+
+Could Not Read IP String
+
+Time Elapsed: 429.493
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-06:35-141.211.95.8
+
+Could Not Read IP String
+
+Time Elapsed: 473.648
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.17
+
+Could Not Read IP String
+
+Time Elapsed: 429.21
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.18
+
+Could Not Read IP String
+
+Time Elapsed: 425.143
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.20
+
+Could Not Read IP String
+
+Time Elapsed: 420.337
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.21
+
+Could Not Read IP String
+
+Time Elapsed: 430.249
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.22
+
+Could Not Read IP String
+
+Time Elapsed: 465.024
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.23
+
+Could Not Read IP String
+
+Time Elapsed: 428.169
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.25
+
+Could Not Read IP String
+
+Time Elapsed: 471.23
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.29
+
+Could Not Read IP String
+
+Time Elapsed: 428.515
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.30
+
+Could Not Read IP String
+
+Time Elapsed: 435.743
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.5
+
+Could Not Read IP String
+
+Time Elapsed: 440.28
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-12:35-141.211.95.8
+
+Could Not Read IP String
+
+Time Elapsed: 429.365
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.17
+
+Could Not Read IP String
+
+Time Elapsed: 457.126
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.18
+
+Could Not Read IP String
+
+Time Elapsed: 437.892
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.20
+
+Could Not Read IP String
+
+Time Elapsed: 420.995
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.21
+
+Could Not Read IP String
+
+Time Elapsed: 466.127
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.22
+
+Could Not Read IP String
+
+Time Elapsed: 457.033
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.23
+
+Could Not Read IP String
+
+Time Elapsed: 459.134
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.25
+
+Could Not Read IP String
+
+Time Elapsed: 431.228
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.29
+
+Could Not Read IP String
+
+Time Elapsed: 423.345
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.30
+
+Could Not Read IP String
+
+Time Elapsed: 418.15
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.5
+
+Could Not Read IP String
+
+Time Elapsed: 414.306
+Network_Data --dot11radio 1 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.1-Dot11-18:35-141.211.95.8
+
+Could Not Read IP String
+
+Time Elapsed: 414.192
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.27
+
+496 entered!
+496 Rows inserted!
+Time Elapsed: 12089.9
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.28
+
+551 entered!
+551 Rows inserted!
+Time Elapsed: 12206.2
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.36
+
+229 entered!
+229 Rows inserted!
+Time Elapsed: 9644.01
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.6
+
+480 entered!
+480 Rows inserted!
+Time Elapsed: 12155.5
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.7
+
+309 entered!
+309 Rows inserted!
+Time Elapsed: 10628
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 00:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-00:35-141.211.95.9
+
+142 entered!
+142 Rows inserted!
+Time Elapsed: 8962.69
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.27
+
+Could Not Read IP String
+
+Time Elapsed: 536.272
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.28
+
+Could Not Read IP String
+
+Time Elapsed: 474.247
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.36
+
+Could Not Read IP String
+
+Time Elapsed: 475.147
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.6
+
+Could Not Read IP String
+
+Time Elapsed: 517.086
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.7
+
+Could Not Read IP String
+
+Time Elapsed: 457.574
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 06:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-06:35-141.211.95.9
+
+Could Not Read IP String
+
+Time Elapsed: 427.691
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.27
+
+Could Not Read IP String
+
+Time Elapsed: 431.591
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.28
+
+Could Not Read IP String
+
+Time Elapsed: 421.557
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.36
+
+Could Not Read IP String
+
+Time Elapsed: 478.604
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.6
+
+Could Not Read IP String
+
+Time Elapsed: 433.874
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.7
+
+Could Not Read IP String
+
+Time Elapsed: 426.769
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 12:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-12:35-141.211.95.9
+
+Could Not Read IP String
+
+Time Elapsed: 430.548
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.27
+
+Could Not Read IP String
+
+Time Elapsed: 430.046
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.28
+
+Could Not Read IP String
+
+Time Elapsed: 448.604
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.36
+
+Could Not Read IP String
+
+Time Elapsed: 433.105
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.6
+
+Could Not Read IP String
+
+Time Elapsed: 421.571
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.7
+
+Could Not Read IP String
+
+Time Elapsed: 388.822
+Network_Data --dot11radio 2 -u --table Dot11Radio --datetime "06-01-2014 18:35:00" -f /home/waltr/Dot11/06-01-2014/5.3-Dot11-18:35-141.211.95.9
+
+Could Not Read IP String
+
+Time Elapsed: 429.396

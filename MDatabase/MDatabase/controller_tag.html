@@ -1,0 +1,23 @@
+<html>
+<head><title>Controller Tag</title></head>
+
+<body>
+
+{%load form_tags %}
+{%if not selection_pack %}
+<p>No Selection Pack</p>
+{% endif %}
+<form id="tag_add_form" action="controller_tag.html" method="post"
+	enctype="multipart/form-data">{%csrf_token%}
+{% selection_table selection_pack 'controller_tag.html' %}
+<br/>
+<p>Add Tags:</p>
+
+		<input name="tag_1" type="text" size="15"></input>
+		<input name="tag_2" type="text" size="15"></input>
+		<input name="tag_3" type="text" size="15"></input>
+		<input name="tag_4" type="text" size="15"></input>
+		<input type="submit" name="{{form_names.add_tags}}" value="{{form_values.add_tags}}">
+	</form>
+</body>
+</html>

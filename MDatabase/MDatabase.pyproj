@@ -44,6 +44,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="MDatabase\controller_tag.py" />
+    <Compile Include="MDatabase\mdatabase_mysql.py" />
     <Compile Include="MDatabase\models.py" />
     <Compile Include="MDatabase\Network_Data.py" />
     <Compile Include="MDatabase\network_data_helpers.py" />
@@ -72,9 +74,12 @@
     <Folder Include="MDatabase\templatetags\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MDatabase\controller_tag.html" />
+    <Content Include="MDatabase\datetime_range_input.html" />
     <Content Include="MDatabase\hello.html" />
     <Content Include="MDatabase\network_data.html" />
     <Content Include="MDatabase\range_form_input.html" />
+    <Content Include="MDatabase\selection_table.html" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />

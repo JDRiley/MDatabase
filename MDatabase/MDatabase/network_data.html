@@ -10,54 +10,15 @@ border:1px solid black;
 
 <body>
 	<h2>Selection Criteria:</h2>
-	<form id="selection_criteria" action="network_data.html" method="post"
-		enctype="multipart/form-data">{% csrf_token %}
-		<table>
-			<tr>
-				<td colspan="8">
-					<p>Controller(s) To Display</p>
-					<select name="controller_names" size="10"  multiple="multiple" >
-						{% for controller_name in data_pack.controller_names %}
-								<option>{{controller_name}}</option>
-						{% endfor %}
-					</select><br/>
-					<input type="submit" name="submit" value="{{data_pack.filter_by_controller_str}}">
-				</td>
-				<td colspan="8">
-					<p>Buildings</p>
-					<select name="buildings" size="10" multiple="multiple">
-						{% for tf_building in data_pack.buildings %}
-							<option>{{tf_building}}</option>
-						{% endfor %}
-					</select><br/>
-					<input type="submit" name="submit" value="{{data_pack.filter_by_building_str}}">
-				</td>
-				<td colspan="8">
-					<p>Access Points</p>
-					<select name="access_points" size="10" multiple="multiple">
-						{% for tf_access_point in data_pack.access_points %}
-							<option>{{tf_access_point}}</option>
-						{% endfor %}
-					</select><br/>
-					<input type="submit" name="submit" value="{{data_pack.filter_by_access_points_str}}">
-				{% load form_tags %}
-				<td>
-					{% range_form_input 'loss' data_pack.loss_low data_pack.loss_high %} </br>
-					{% range_form_input 'retry' data_pack.retry_low data_pack.retry_high %} </br>
-					{% range_form_input 'thru' data_pack.thru_low data_pack.thru_high %} </br>
-					{% range_form_input 'beacon' data_pack.beacon_low data_pack.beacon_high %} </br>
-					{% range_form_input 'probe' data_pack.probe_low data_pack.probe_high %} </br>
-				</td>
-			</tr>
-			<tr>
-				<td><input type="submit" name="submit" value="Search"></td>
-			</tr>
-		</table>
+	{% load form_tags %}
+	<form id="tag_add_form" action="network_data.html" method="post"
+	enctype="multipart/form-data">{%csrf_token%}
+	{% selection_table selection_pack 'network_data.html'%}
 	</form>
-	{% if data_pack %}
+	{% if selection_pack %}
 	<table style="width:1400px">
 	<tr>
-	{% for header in data_pack.row_header %}
+	{% for header in selection_pack.row_header %}
 	{% if header == 'Date' %}
 			<th style="width:200px">
 	{% elif header == 'Controller_Name' %}
@@ -68,7 +29,7 @@ border:1px solid black;
 {{header}}</th>
 {% endfor %} 
 </tr>
-{% for row in data_pack.data_rows %}
+{% for row in selection_pack.data_rows %}
 <tr>
 {% for value in row %}
 <td>{{value}}</td>
@@ -78,7 +39,7 @@ border:1px solid black;
 
 </table>
 {% else %}
-    <p>No Data Pack</p>
+    <p>No Selection PAck Pack</p>
 {% endif %} 
 <p>{{output_str}}</p>
 </body>
